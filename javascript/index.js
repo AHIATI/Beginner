@@ -12,3 +12,4 @@ else{
   answer ==='You entered a negative number. Try to enter a positive number instead.'
 };
 alert(`The number ${input} answer`);
+console.log("How are you doing")
