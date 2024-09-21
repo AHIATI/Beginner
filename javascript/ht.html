@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Distance Conversion</title>
+</head>
+<body>
+<!--What we do-->
+    <h2>Welcome to Distance Conversion.</h2>
+    <!--stling to the buttons and input-->
+    <style>
+        button{
+            background-color: white;
+            font-size: 25px;
+            margin: 10px;
+            }
+          input{
+            background-color: white;
+            font-size:25px;
+            margin:0px;
+          }
+    </style>
+    <!--Getting input from the user in terms of km-->
+     <input id="kminput" type = "number" placeholder="enter number in terms km" step="1"min="1" required >
+     <!--Button to press to Process for the results-->
+        <button onclick = "kmTomile(numOfkm);">Convert to Miles</button>
+        <br>
+        <!--Getting input from the user in terms of km-->
+        <input id="minput" type = "number" placeholder="enter number in terms of m" step="1" min="1"required >
+        <!--button to proces for results-->
+  <button onclick = "">Convert to Kilometres</button>
+  <!--backend for the final results-->
+  <script>
+    //taking the input from the user to process it
+    var kminput1= document.getElementById(kminput).value;
+    //constant mile
+     const mile = 1;
+    //constant kilometres
+    const km= 1.609;
+    //finding for the actual answer
+    var answerMile=  (mile*kminput1)/km
+    // checking for validity before processing
+ function kmTomile(numOfkm){
+  //declaring numOfkm
+   var num0fkm = kminput1;
+    if(kminput1 <= 0){
+  return "You should enter a number greater than 0";
+ }
+ //converting to now to desired distance
+ else{
+ return "answerMile miles";
+ }
+ }
+  </script>
+</body>
+</html>

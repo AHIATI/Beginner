@@ -1,0 +1,47 @@
+@font-face{
+    src:url(url(../Fontsarena/Roboto-Bold.ttf))
+    font-family:Roboto-Bold;
+}
+#A1{
+    color:sandybrown;
+    text-shadow:2px 3px 4px,-2px -3px 4px;
+}
+body{
+    background-color: blue;
+    background-image: url();
+#A2{ 
+    color:red;
+}
+#A3{;
+    color:  aquamarine;
+}
+#A4{
+    border: 2px solid rgb(0, 174, 255);
+    border-radius: 24px
+}
+#A5{
+    border-style:solid;
+    border-width: 3px
+
+}
+.intro{
+    margin: 20px;
+}
+
+.float{
+    float:none
+}
+.grandpa{
+ float:none
+}
+a:link{
+    color:gold
+}
+a:hover{
+    color:lawngreen;
+    font-size: 1.2em;
+}
+a:active{
+    color:violet
+    font-size:1.1em
+}

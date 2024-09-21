@@ -1,0 +1,120 @@
+@import url("Fontsarena/OpenSans_Condensed-BoldItalic.ttf");
+
+* { margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    font-family:"Open Sans", sans-serif;
+}
+body{
+    
+    
+   
+    background-color:rgba(45, 11, 2, 0.215);
+    
+    overflow: hidden;
+
+}
+.container{
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 170px auto;
+
+}
+
+.wrapper{
+    width:100%;
+    background-color:white;
+    border-radius:5px;
+}
+.wrapper .title{
+    text-align: center;
+    background-color: green;
+    color:white;
+    border-radius:5px 5px 0 0 ;
+    padding-left:20px;
+    line-height:60px ;
+    font-size:25px;
+    font-weight:600;
+}
+.wrapper form{
+    padding:30px 20px 25px 20px;
+
+}
+.needs{
+    background-color: white;
+    margin-bottom: 20px;
+    height:45px;
+    position:relative;
+    
+}
+.needs input{
+    height:100%;
+    width:100%;
+    outline:none;
+    padding-left:60px;
+    
+    
+
+
+}
+.needs i{
+    position:absolute;
+    width:47px;
+    height:100%;
+   background-color:green;
+    border:1px solid green;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    border-radius:5px 0 0 5px;
+}
+.button input{
+    padding-left:0px;
+    color:white;
+    background-color:green;
+    font-weight:500px;
+    font-size:18px;
+    border:1px solid green;
+    border-radius:100;
+    cursor:pointer;
+}
+.forgotpassword a{
+   text-decoration:none;
+   color:green;
+   font-size:17px;
+   
+
+
+
+
+}
+.signuplink{
+    text-align: center;
+    margin-top: 20px;
+    
+
+
+}
+.forgotpassword a:hover{
+    text-decoration: underline;
+    
+}
+.forgotpassword {
+    margin:-10px 0 15px 0;}
+
+    .signuplink a:hover{
+        text-decoration: underline;}
+
+        .signuplink a{
+            text-decoration: none;
+        }
+      .button input:hover{
+            background:rgba(0, 128, 85, 0.965);
+
+        }
+        .needs input:focus{
+            border-color: green;
+            box-shadow: inset 0px 0px 0px 0px green;
+
+        }
