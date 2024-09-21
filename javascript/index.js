@@ -13,3 +13,4 @@ else{
 };
 alert(`The number ${input} answer`);
 console.log("How are you doing")
+console.log("yOO WOSSOP")
