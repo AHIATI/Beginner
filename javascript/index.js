@@ -6,7 +6,7 @@ if (input % 2 === 0){
  answer === 'is an even number'
 };
 else if (input % 2 != 0){
-  answer === ' is an odd number.'
+  answer === ' is an odd number.Yes it is an odd number'
 };
 else{
   answer ==='You entered a negative number. Try to enter a positive number instead.'
